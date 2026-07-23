@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Data
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Trained models
+*.pkl
+*.joblib
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
