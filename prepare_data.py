@@ -26,9 +26,9 @@ def main():
     print("Loading raw data...")
     try:
         # Load the dataset you downloaded from Kaggle
-        df = pd.read_csv('raw_emails.csv')
+        df = pd.read_csv('data/raw_emails.csv')
     except FileNotFoundError:
-        print("Error: 'raw_emails.csv' not found.")
+        print("Error: 'data/raw_emails.csv' not found.")
         print("Please download a dataset, rename it to 'raw_emails.csv', and put it in this folder.")
         return
 
