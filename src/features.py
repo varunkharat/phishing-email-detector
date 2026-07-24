@@ -76,6 +76,11 @@ _URGENCY_PHRASES = [
     "expire", "expires", "within 24 hours", "final notice", "last warning",
     "limited time", "your account will be", "unauthorized", "security alert",
     "action required", "failure to", "avoid suspension",
+    # Added after reviewing a real sample that slipped through all 3 checks:
+    "failed login", "failed attempt", "too many failed", "locked",
+    "has been locked", "unlock your", "unlock this", "verify your identity",
+    "social security number", "account review", "reply to this",
+    "for your security", "protect your identity",
 ]
 
 
